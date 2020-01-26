@@ -6,9 +6,10 @@ WORKDIR /usr/react-client
 COPY ./package.json ./
 RUN npm install
 COPY ./ ./
+RUN npm build
 
 # Default command
-CMD ["npm", "run", "build"]
+# CMD ["npm", "run", "build"]
 
 FROM nginx
 EXPOSE 80
