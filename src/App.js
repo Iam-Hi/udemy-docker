@@ -19,7 +19,7 @@ function App() {
           Learn React
           <p> WAIT </p>
         </a>
-        <p> Why thiswe we dok? </p>
+        <p> please work :D </p>
       </header>
     </div>
   );
