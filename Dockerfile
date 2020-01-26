@@ -6,7 +6,7 @@ WORKDIR /usr/react-client
 COPY ./package.json ./
 RUN npm install
 COPY ./ ./
-RUN npm build
+RUN npm run build
 
 # Default command
 # CMD ["npm", "run", "build"]
