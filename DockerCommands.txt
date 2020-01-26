@@ -11,8 +11,7 @@ docker run -it <Container_ID> npm run test
 docker exec -it <Container_ID> npm run test
 
 docker attach <Container_ID>
-docker exec -it <ContainerID> sh
-
+docker exec -it <ContainerID> s
 docker run <COntainer_Id> npm run test -- --coverage
 
 
