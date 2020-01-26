@@ -12,3 +12,9 @@ docker exec -it <Container_ID> npm run test
 
 docker attach <Container_ID>
 docker exec -it <ContainerID> sh
+
+docker run <COntainer_Id> npm run test -- --coverage
+
+
+script:
+  - docker run -e CI=true USERNAME/docker-react npm run test
