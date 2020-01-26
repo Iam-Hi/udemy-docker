@@ -1,0 +1,14 @@
+docker build -f Dockerfile.dev .
+
+docker run -p 3000:3000 -v /usr/react-client/node_modules -v $(pwd):/usr/react-client <imageId>
+docker run -p 3000:3000 -v /usr/react-client/node_modules -v pwd:/usr/react-client CONTAINER_I
+docker run -p 3000:3000 -v /usr/react-client/node_modules -v ${pwd}:/usr/react-client CONTAINER_ID
+
+docker-compose up
+
+docker run -it <Container_ID> npm run test
+
+docker exec -it <Container_ID> npm run test
+
+docker attach <Container_ID>
+docker exec -it <ContainerID> sh

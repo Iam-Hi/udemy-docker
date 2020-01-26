@@ -17,7 +17,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <p> WAIT </p>
         </a>
+        <p> Why thiswe we dok? </p>
       </header>
     </div>
   );
