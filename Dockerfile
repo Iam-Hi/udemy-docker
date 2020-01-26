@@ -12,4 +12,4 @@ CMD ["npm", "run", "build"]
 
 FROM nginx
 EXPOSE 80
-COPY --from=builder . /usr/share/nginx/html
+COPY --from=builder /usr/react-client/build /usr/share/nginx/html
